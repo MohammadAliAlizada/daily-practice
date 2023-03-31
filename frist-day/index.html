@@ -3,17 +3,17 @@
 <head>
 	<title>Addition</title>
 	<style>
-	.container{
-		text-align: center;
-	}
-	.values{
-		display: flex;
-		justify-content: center;
-		margin: 4px;
-	}
-	#result{
-		margin-left: 6px;
-	}
+		.container{
+			text-align: center;
+		}
+		.values{
+			display: flex;
+			justify-content: center;
+			margin: 4px;
+		}
+		#result{
+			margin-left: 6px;
+		}
 		input[type="number"] {
 			padding: 10px;
 			border-radius: 5px;
@@ -33,27 +33,32 @@
 </head>
 <body>
 	<div class="container">
-	<h1>Sum Two Numbers</h1>
-	<div class="values">
-	<input type="number" id="num1" placeholder="Enter first number"><br><br>
-	<input type="number" id="num2" placeholder="Enter second number"><br><br>
-	
-	</div>
-	<div class="values">
-	<button onclick="sum()">Add</button><br><br>
-	<p id="result"></p>
-	</div>
+		<h1>Sum Two Numbers</h1>
+
+			<div class="values">
+				<input type="number" id="num1" placeholder="Enter first number"><br><br>
+				<input type="number" id="num2" placeholder="Enter second number"><br><br>
+			</div>
+
+			<div class="values">
+				<button onclick="sum()">Add</button><br><br>
+				<p id="result"></p>
+			</div>
 </div>
 	<script>
+
+		//function to sum two numbers
 		function sum() {
+
 			var num1 = parseFloat(document.getElementById("num1").value);
 			var num2 = parseFloat(document.getElementById("num2").value);
+
 			if(num1<0 && num2<0){
 				var result = num1 + num2;
 				document.getElementById("result").innerHTML = "The sum is: " + result;
 			}
 			else if(num1<0 || num2 <0){
-				
+
 				document.getElementById("result").innerHTML = "You! entered negative number";
 			}
 			else{
