@@ -16,4 +16,4 @@ credits()
 credits()
 credits()
 
-// when a function access to globale varable and parent varaible and not called is call cluser
+// when a function access to globale variable and parent variable and does not called is closure
