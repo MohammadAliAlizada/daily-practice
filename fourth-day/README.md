@@ -1,4 +1,4 @@
-implement closer and IIFE (Immediately Invoked Function Expression) in same example
+implement closure and IIFE (Immediately Invoked Function Expression) in same example
 
 I hope it a helpfull 
 
