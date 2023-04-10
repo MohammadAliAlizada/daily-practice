@@ -14,4 +14,4 @@ Input Format
 The first line contains an integer, , denoting the size of the array.
 The second line contains  space-separated integers representing the array's elements.
 
-used **HTML** for UI and and **JAVASCRIPT** for implement the logic
+used  **JAVASCRIPT** for implement the logic
